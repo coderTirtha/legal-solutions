@@ -35,6 +35,9 @@
         .font-poppins {
             font-family: 'Poppins', sans-serif;
         }
+        .custom-transition {
+            transition: 0.1s linear;
+        }
     </style>
 </head>
 
@@ -109,10 +112,12 @@
                 </div>
             </div>
         </nav>
-        <div class="py-24 hero text-white bg-blend-darken" style="background: url('images/banner.png'), linear-gradient(#00000058, #000000d2); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <div class="py-24 hero text-white bg-blend-darken rounded-md"
+            style="background: url('images/banner.png'), linear-gradient(#00000058, #000000d2); background-repeat: no-repeat; background-size: cover; background-position: center;">
             <div class="hero-content text-center">
                 <div class="max-w-lg">
-                    <h1 class="text-4xl md:text-5xl font-black font-garamond">We Provide Effective <br> Legal Solutions</h1>
+                    <h1 class="text-4xl md:text-5xl font-black font-garamond">We Provide Effective <br> Legal Solutions
+                    </h1>
                     <p class="py-6">There are many variations of passages of Lorem Ipsum available, but the majority
                         have suffered alteration in some form, by injected humour.</p>
                     <div class="">
@@ -123,8 +128,102 @@
             </div>
         </div>
     </header>
-    <main>
-
+    <main class="container mx-auto">
+        <!-- Legal Practice Section -->
+        <section class="my-24">
+            <div class="space-y-4 text-center">
+                <h2 class="text-5xl font-bold font-garamond text-[#414040]">The Legal Practice Area</h2>
+                <p class="font-poppins font-normal md:w-[700px] mx-auto">There are many variations of passages of Lorem
+                    Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <!-- Legal Practice Container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12">
+                <div
+                    class="card border-2 border-t-transparent border-l-transparent border-r-gray-300 border-b-gray-300 hover:border-2 hover:border-gray-300 rounded-none hover:bg-gradient-to-b from-gray-100 to-transparent custom-transition">
+                    <figure class="px-10 pt-10">
+                        <img src="images/business.png" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                        <h2 class="text-3xl font-bold font-garamond">Business Law</h2>
+                        <p class="font-poppins">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card border-2 border-t-transparent border-l-transparent border-r-gray-300 border-b-gray-300 hover:border-2 hover:border-gray-300 hover:border-l-transparent rounded-none hover:bg-gradient-to-b from-gray-100 to-transparent custom-transition">
+                    <figure class="px-10 pt-10">
+                        <img src="images/criminal.png" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                        <h2 class="text-3xl font-bold font-garamond">Criminal Law</h2>
+                        <p class="font-poppins">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card border-2 border-t-transparent border-l-transparent border-r-transparent border-b-gray-300 hover:border-2 hover:border-gray-300 hover:border-l-transparent rounded-none hover:bg-gradient-to-b from-gray-100 to-transparent custom-transition">
+                    <figure class="px-10 pt-10">
+                        <img src="images/child.png" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                        <h2 class="text-3xl font-bold font-garamond">Child Support</h2>
+                        <p class="font-poppins">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card border-2 border-t-transparent border-l-transparent border-r-gray-300 border-b-transparent hover:border-2 hover:border-gray-300 hover:border-t-transparent rounded-none hover:bg-gradient-to-b from-gray-100 to-transparent custom-transition">
+                    <figure class="px-10 pt-10">
+                        <img src="images/education.png" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                        <h2 class="text-3xl font-bold font-garamond">Education Law</h2>
+                        <p class="font-poppins">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card border-2 border-t-transparent border-l-transparent border-r-gray-300 border-b-transparent hover:border-2 hover:border-gray-300 hover:border-l-transparent hover:border-t-transparent rounded-none hover:bg-gradient-to-b from-gray-100 to-transparent custom-transition">
+                    <figure class="px-10 pt-10">
+                        <img src="images/divorce.png" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                        <h2 class="text-3xl font-bold font-garamond">Divorce Law</h2>
+                        <p class="font-poppins">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card border-2 border-transparent hover:border-gray-300 hover:border-l-transparent hover:border-t-transparent rounded-none hover:bg-gradient-to-b from-gray-100 to-transparent custom-transition">
+                    <figure class="px-10 pt-10">
+                        <img src="images/tax.png" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                        <h2 class="text-3xl font-bold font-garamond">Tax Law</h2>
+                        <p class="font-poppins">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
