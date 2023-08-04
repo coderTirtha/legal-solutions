@@ -36,6 +36,7 @@
         .font-poppins {
             font-family: 'Poppins', sans-serif;
         }
+
         .custom-transition {
             transition: 0.1s linear;
         }
@@ -44,6 +45,7 @@
 
 <body>
     <header class="container mx-auto">
+        <!-- Navbar -->
         <nav class="font-poppins py-4">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -113,13 +115,15 @@
                 </div>
             </div>
         </nav>
+        <!-- Top banner -->
         <div class="py-24 hero text-white bg-blend-darken rounded-md"
             style="background: url('images/banner.png'), linear-gradient(#00000058, #000000d2); background-repeat: no-repeat; background-size: cover; background-position: center;">
             <div class="hero-content text-center">
                 <div class="max-w-lg">
                     <h1 class="text-4xl md:text-5xl font-black font-garamond">We Provide Effective <br> Legal Solutions
                     </h1>
-                    <p class="py-6 font-poppins font-thin">There are many variations of passages of Lorem Ipsum available, but the majority
+                    <p class="py-6 font-poppins font-thin">There are many variations of passages of Lorem Ipsum
+                        available, but the majority
                         have suffered alteration in some form, by injected humour.</p>
                     <div class="font-poppins">
                         <input class="input input-bordered w-3/4 text-black" placeholder="Search your services" />
@@ -227,6 +231,117 @@
                         <div class="card-actions">
                             <img src="images/Frame.png" alt="">
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What our client say section -->
+        <section class="mb-24">
+            <div class="space-y-4 text-center">
+                <h2 class="text-5xl font-bold font-garamond text-[#414040]">What Our Client Say</h2>
+                <p class="font-poppins font-normal md:w-[700px] mx-auto">There are many variations of passages of Lorem
+                    Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <!-- Client carousel container -->
+            <div class="carousel w-full mt-16 md:rounded-lg">
+                <div id="slide1" class="carousel-item relative w-full bg-blend-darken"
+                    style="background: url('images/slider-1.jpg'), linear-gradient(#0000004e, #000000d7); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="hero">
+                        <div class="hero-content text-center py-20 text-white">
+                            <div class="max-w-lg md:max-w-2xl space-y-8">
+                                <div class="flex flex-col items-center space-y-4">
+                                    <img src="images/user.svg" class="rounded-full w-1/5" alt="">
+                                    <div class="">
+                                        <h1 class="text-2xl font-bold font-garamond">Awlad Hossain</h1>
+                                        <p class="">UIX Designer</p>
+                                    </div>
+                                </div>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                    Richard McClinton, a Latin professor at Hampden-Sydney College in Virginia, looked
+                                    up one of the more obscure Latin words, consecrator.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide2" class="carousel-item relative w-full bg-blend-darken"
+                    style="background: url('images/slider-2.jpg'), linear-gradient(#0000004e, #000000d7); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="hero">
+                        <div class="hero-content text-center py-20 text-white">
+                            <div class="max-w-lg md:max-w-2xl space-y-8">
+                                <div class="flex flex-col items-center space-y-4">
+                                    <img src="images/user.svg" class="rounded-full w-1/5" alt="">
+                                    <div class="">
+                                        <h1 class="text-2xl font-bold font-garamond">Awlad Hossain</h1>
+                                        <p class="">UIX Designer</p>
+                                    </div>
+                                </div>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                    Richard McClinton, a Latin professor at Hampden-Sydney College in Virginia, looked
+                                    up one of the more obscure Latin words, consecrator.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide3" class="carousel-item relative w-full bg-blend-darken"
+                    style="background: url('images/slider-3.jpg'), linear-gradient(#0000004e, #000000d7); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="hero">
+                        <div class="hero-content text-center py-20 text-white">
+                            <div class="max-w-lg md:max-w-2xl space-y-8">
+                                <div class="flex flex-col items-center space-y-4">
+                                    <img src="images/user.svg" class="rounded-full w-1/5" alt="">
+                                    <div class="">
+                                        <h1 class="text-2xl font-bold font-garamond">Awlad Hossain</h1>
+                                        <p class="">UIX Designer</p>
+                                    </div>
+                                </div>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                    Richard McClinton, a Latin professor at Hampden-Sydney College in Virginia, looked
+                                    up one of the more obscure Latin words, consecrator.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide4" class="carousel-item relative w-full bg-blend-darken"
+                    style="background: url('images/banner.png'), linear-gradient(#0000004e, #000000d7); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="hero">
+                        <div class="hero-content text-center py-20 text-white">
+                            <div class="max-w-lg md:max-w-2xl space-y-8">
+                                <div class="flex flex-col items-center space-y-4">
+                                    <img src="images/user.svg" class="rounded-full w-1/5" alt="">
+                                    <div class="">
+                                        <h1 class="text-2xl font-bold font-garamond">Awlad Hossain</h1>
+                                        <p class="">UIX Designer</p>
+                                    </div>
+                                </div>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                    Richard McClinton, a Latin professor at Hampden-Sydney College in Virginia, looked
+                                    up one of the more obscure Latin words, consecrator.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
                 </div>
             </div>
