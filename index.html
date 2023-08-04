@@ -12,6 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- Font-awesome CDN -->
+    <script src="https://kit.fontawesome.com/f9c9f5cd0c.js" crossorigin="anonymous"></script>
     <!-- DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -424,7 +426,7 @@
                                 New York, NY 535022</p>
                         </div>
                     </div>
-    
+
                     <div
                         class="card bg-base-200 rounded-none md:border-2 border-gray-300 border-t-transparent border-r-transparent">
                         <figure class="px-10 pt-10">
@@ -436,7 +438,7 @@
                                 +88 01750 00 00 00</p>
                         </div>
                     </div>
-    
+
                     <div
                         class="card bg-base-200 rounded-none md:border-2 border-gray-300 border-l-transparent border-b-transparent">
                         <figure class="px-10 pt-10">
@@ -448,7 +450,7 @@
                                 info@gmail.com</p>
                         </div>
                     </div>
-    
+
                     <div class="card bg-base-200 rounded-none md:border-2 border-transparent">
                         <figure class="px-10 pt-10">
                             <img src="images/time.png" />
@@ -461,18 +463,59 @@
                     </div>
                 </div>
                 <div class="flex-1 space-y-6 lg:space-y-8">
-                    <input type="text" placeholder="Your Name" class="input font-poppins py-8 bg-base-200 w-full" required/>
-                    <input type="email" placeholder="Your Email" class="input font-poppins py-8 bg-base-200 w-full" required/>
-                    <input type="text" placeholder="Subject" class="input font-poppins py-8 bg-base-200 w-full" required/>
-                    <textarea class="textarea bg-base-200 w-full textarea-lg" rows="2" placeholder="Your Message"></textarea>
+                    <input type="text" placeholder="Your Name" class="input font-poppins py-8 bg-base-200 w-full"
+                        required />
+                    <input type="email" placeholder="Your Email" class="input font-poppins py-8 bg-base-200 w-full"
+                        required />
+                    <input type="text" placeholder="Subject" class="input font-poppins py-8 bg-base-200 w-full"
+                        required />
+                    <textarea class="textarea bg-base-200 w-full textarea-lg" rows="2"
+                        placeholder="Your Message"></textarea>
                     <input type="submit" value="Send Message"
                         class="btn bg-[#B68C5A] w-full text-white hover:text-[#B68C5A]">
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-[#111] px-16 pt-24 pb-20 text-white">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 lg:grid-cols-4">
+            <div class="space-y-4">
+                <span class="footer-title">
+                    <img src="images/logo.png" alt="">
+                </span>
+                <p class="">There are many variations of passages of Lorem Ipsum available, but the majority have
+                    suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="space-y-2">
+                <h2 class="text-white text-2xl font-bold font-garamond mb-8">Useful Links</h2>
+                <p class="link link-hover font-poppins">Home</p>
+                <p class="link link-hover font-poppins">About Us</p>
+                <p class="link link-hover font-poppins">Cases</p>
+                <p class="link link-hover font-poppins">Blog</p>
+                <p class="link link-hover font-poppins">Contact Us</p>
+            </div>
+            <div class="space-y-4">
+                <h2 class="text-2xl text-white font-bold font-garamond mb-8">Contact Now</h2>
+                <p font-poppins>555 4th 5t NW, Washington <br>
+                    DC 20530, United States</p>
+                <p font-poppins>+88 01750 000 000 <br>
+                    +88 01750 000 000</p>
+                <p font-poppins>info@gmail.com <br>
+                    info@gmail.com</p>
+            </div>
+            <div>
+                <h2 class="text-2xl text-white font-bold font-garamond mb-8">Subscribe</h2>
+                <div class="space-y-4">
+                    <p>Subscribe for our latest & Articles. We Won't Give You Spam Mails</p>
+                    <div class="join">
+                        <input class="input input-bordered w-3/4 join-item" placeholder="Email Address" />
+                        <button class="btn join-item rounded-md bg-[#B68C5A] border-0 text-white hover:text-[#B68C5A]"><i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-sm text-center mt-16 text-gray-300 font-poppins font-thin">Copyright © 2023 - All right reserved
+        </p>
     </footer>
 </body>
 
